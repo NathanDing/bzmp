@@ -8,7 +8,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    // 根state
+    // 根 state
     version: '1.0.0',
     logoName: '百兆APP',
     themeColor: 'default',

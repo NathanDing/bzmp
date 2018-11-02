@@ -12,7 +12,8 @@ export default new VueRouter({
       name: 'Main',
       component: Main,
       children: [
-        { path: 'profile', component: HelloWorld }]
+        { path: '/hello', component: HelloWorld }
+      ]
     }
   ]
 })
